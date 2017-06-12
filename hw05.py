@@ -332,10 +332,6 @@ class RB:
 
 rb1 = RB()
 rb1.file_search()
-string1 = []
-for string in rb1.string:
-    string1.append(string)
-
 for string in rb1.string:
     rb = RB()
     f = open('./rbtest/' + string, 'r')
