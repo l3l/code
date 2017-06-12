@@ -2,8 +2,6 @@ import os
 
 
 class Node:
-    count = 0
-
     def __init__(self, newval):
         self.val = newval
         self.left = None
